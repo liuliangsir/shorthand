@@ -1,10 +1,10 @@
 /**
  * Created by xiadd on 7/11/16.
  */
-var path = require('path');
-var webpack = require('webpack');
+var path = require('path')
+var webpack = require('webpack')
 
-var hotMiddlewareScript = 'webpack-hot-middleware/client?reload=true';
+var hotMiddlewareScript = 'webpack-hot-middleware/client?reload=true'
 
 module.exports = {
   entry: {
@@ -61,7 +61,7 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendors', // 将公共模块提取，生成名为`vendors`的chunk
-      filename: "commons.js"
+      filename: 'commons.js'
     })
   ],
   devServer: {
@@ -74,5 +74,4 @@ module.exports = {
       scss: 'style!css!sass'
     }
   }
-};
-
+}

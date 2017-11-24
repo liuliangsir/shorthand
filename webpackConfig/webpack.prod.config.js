@@ -11,7 +11,7 @@ module.exports = {
     filename: 'build.js'
   },
   resolveLoader: {
-    root: path.join(__dirname, 'node_modules'),
+    root: path.join(__dirname, 'node_modules')
   },
   module: {
     loaders: [
@@ -56,7 +56,7 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendors', // 将公共模块提取，生成名为`vendors`的chunk
-      filename: "commons.js"
+      filename: 'commons.js'
     })
   ],
   devServer: {
@@ -70,10 +70,10 @@ module.exports = {
       scss: 'style!css!sass'
     }
   }
-};
+}
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports.devtool = false;
+  module.exports.devtool = false
   // http://vuejs.github.io/vue-loader/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
     new webpack.DefinePlugin({

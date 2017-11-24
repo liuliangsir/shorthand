@@ -6,4 +6,4 @@ module.exports =
   '<MsgType><![CDATA[text]]></MsgType>' +
   '<Content><![CDATA[%s]]></Content>' +
   '<FuncFlag>0</FuncFlag>' +
-  '</xml>';
+  '</xml>'

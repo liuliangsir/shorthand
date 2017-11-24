@@ -1,10 +1,10 @@
-const request = require('request');
+// const request = require('request');
 
-//static varible
-const url = 'xiadd.me';
+// static varible
+// const url = 'xiadd.me';
 
-function getUserinfo() {
-  
+function getUserinfo () {
+
 }
 
-module.exports = getUserinfo;
+module.exports = getUserinfo

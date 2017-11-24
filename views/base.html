@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>微信授权登录</title>
 </head>
 <body>
     <h1>index</h1>
-    <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid={{appId}}&redirect_uri=http%3A%2F%2Fwuyrsp3tma.proxy.qqbrowser.cc%2Fuser&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect">授权</a>
+    <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid={{appId}}&redirect_uri=http%3A%2F%2Fwechat.lzxxx.me%2Fuser&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect">授权</a>
     <script src="scripts/jweixin.js"></script>
     <script>
         wx.config({
@@ -23,7 +22,7 @@
         wx.ready(function () {
             wx.onMenuShareTimeline({
                 title: '测试', // 分享标题
-                link: 'xiadd.me', // 分享链接
+                link: 'lzxxx.me', // 分享链接
                 imgUrl: '', // 分享图标
                 success: function () {
                     console.log('success');
