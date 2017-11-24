@@ -14,7 +14,7 @@ var menus = {
         {
           'type': 'view',
           'name': '授权登录',
-          'url': 'http://wechat.lzxxx.me/auth'
+          'url': 'http://wechat.yy.com/auth'
         }]
     }]
 }
